@@ -1,0 +1,22 @@
+{
+  "version": "0.0.01",
+  "name": "Calculator",
+  "description": "It adds, subtracts, multiplies and divides numbers!",
+  "launch_path": "/Calculator/index.html",
+  "icons": {
+    "16": "/Calculator/images/logos/calculator-icon-16.png",
+    "32": "/Calculator/images/logos/calculator-icon-32.png",
+    "48": "/Calculator/images/logos/calculator-icon-48.png",
+    "60": "/Calculator/images/logos/calculator-icon-60.png",
+    "64": "/Calculator/images/logos/calculator-icon-64.png",
+    "128": "/Calculator/images/logos/calculator-icon-128.png"
+  },
+  "developer": {
+    "name": "Alex Theedom",
+    "url": "http://www.alextheedom.com/"
+  },
+  "installs_allowed_from": ["*"],
+  "default_locale": "en",
+  "fullscreen": "true",
+  "orientation": ["portrait"]
+}

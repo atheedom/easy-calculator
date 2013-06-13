@@ -1,0 +1,91 @@
+
+header {
+  background-color: #0095dd;
+  color: #FFFFFF;
+  height: 4.9rem;
+  position: relative;
+  z-index: 2;
+}
+
+header #btnMain {
+  background: #00539f url(../images/back.png) no-repeat -0.5rem center;
+  position: absolute;
+  left: 0;
+  width: 2rem;
+  border: none;
+  height: 100%;
+  margin: 0;
+}
+
+header #btnInstall {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  background: transparent;
+  border: none;
+  margin: 1.4rem 0 0;
+}
+
+header #btnAdd {
+  background: url(../images/add.png) no-repeat left center;
+  width: 3rem;
+  border: none;
+  height: 100%;
+  margin: 0;
+}
+
+header #btnMain:active {
+  background-color: #e66000;
+}
+
+header #btnMain img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* background-image: url("images/back.png"); */
+  background-color: #00539f;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  width: 2rem;
+  height: 100%;
+  z-index: -1;
+}
+
+header h1 {
+  background: url("../images/mainsepa.png") no-repeat scroll left top;
+  display: block;
+  font-weight: normal;
+  font-size: 2.2rem;
+  line-height: 4.9rem;
+  height: 100%;
+  margin: 0 0 0 2rem;
+  padding: 0 0 0 1rem;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+header ul {
+  margin: 0px;
+  padding: 0px;
+  float: right;
+  height: 100%;
+  min-width: 12rem;
+}
+
+header li {
+  float: left;
+  list-style: none;
+  background: url("../images/separator.png") no-repeat scroll left top;
+  min-width: 6rem;
+  padding: 0rem 0.5rem 0rem 0.5rem;
+  text-align: center;
+  width: auto;
+  height: 100%;
+}
+
+header li:active {
+  background-color: #e66000;
+}
