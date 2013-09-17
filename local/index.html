@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" type="text/css" href="css/layout.css"/>
+		<link rel="stylesheet" type="text/css" href="css/install.css"/>	
+		<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.1.4" media="screen" />
+		<script type="text/javascript" src="js/functions.js"></script>  
+		<script type="text/javascript" src="js/install.js"></script>  
+		<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>  	
+		<script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.4"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.fancybox').fancybox();
+			});
+		</script>
+
+	
+	</head>
+	
+	<body onload="initialize()">
+
+	<section id="result">
+		<div id="panel"></div>
+	</section>
+	
+	<section id="key">
+		<div id="pad">
+			<!--		
+			7	8	9	/
+			4	5	6	*
+			1	2	3	-
+			0	.   %	+
+			C	D	R	=
+			-->
+	
+			<ul>
+				<li data-value="7"><button>7</button></li>
+				<li data-value="8"><button>8</button></li>
+				<li data-value="9"><button>9</button></li>
+				<li data-value="/"><button>&#247;</button></li>
+			</ul>
+			<ul>
+				<li data-value="4"><button>4</button></li>
+				<li data-value="5"><button>5</button></li>
+				<li data-value="6"><button>6</button></li>
+				<li data-value="*"><button>&#215;</button></li>
+			</ul>
+			<ul>
+				<li data-value="1"><button>1</button></li>
+				<li data-value="2"><button>2</button></li>
+				<li data-value="3"><button>3</button></li>
+				<li data-value="-"><button>-</button></li>
+			</ul>
+			<ul>
+				<li data-value="0"><button>0</button></li>
+				<li data-value="."><button>.</button></li>
+				<li data-value="%"><button>%</button></li>
+				<li data-value="+"><button>+</button></li>
+			</ul>	
+			<ul>
+				<li data-value="C"><button>C</button></li>
+				<li data-value="D"><button>D</button></li>
+				<li data-value="R"><button>&#8730;</button></li>
+				<li data-value="="><button>=</button></li>
+			</ul>	
+		</div>
+	</section>
+	
+	<section id="error"><div id="message"></div></section>
+	
+	<footer id="bar">
+		<ul>
+			<li><button class="fancybox" href="#help" title="Calculator Help">Help</button></li>
+			<li><button class="fancybox" href="#about" title="About Calculator">About</button></li>
+			<li><button class="fancybox" href="#more" title="More Applications">More</button></li>
+		</ul>
+	</footer>
+	
+	<div id="help">		
+		To clear the calculator's results panel touch the C button.<br><br>
+		To delete the last number entered touch the D button.<br><br>
+		To calculate a percentage enter the fraction, like so: 10/100, and touch the % button.<br><br>
+		The maximum number of numbers that can be displayed is 9.
+	</div>
+	
+	<div id="about">
+		This is a very simple and easy to use calculator designed for the Firefox OS running on mobile phones. <br><br>
+		If you experience technical issues or have suggestions for improvements please contact me via my website.
+		<br><br>&copy; 2013 <a href="http://www.alextheedom.com">Alex Theedom</a>
+	</div>
+	
+	<div id="more">
+		For more simple and esential applications visit the Firefox Market place. 
+		<br><br>
+		For more about me visit my personal web site: <a href="http://www.alextheedom.com">alextheedom.com</a>
+	</div>
+	
+	</body>
+</html>
