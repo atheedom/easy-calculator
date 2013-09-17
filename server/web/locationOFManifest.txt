@@ -1,0 +1,1 @@
+http://atheedom.github.io/easy-calculator/server/web/manifest.webapp
