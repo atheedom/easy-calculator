@@ -1,15 +1,15 @@
 {
   "version": "0.0.01",
   "name": "Calculator",
-  "description": "It adds, subtracts, multiplies and divides numbers!",
-  "launch_path": "/Calculator/index.html",
+  "description": "A simple and easy to use calculator with a large screen and buttons for people who have difficulty seeing/using the buttons on traditional mobile calculators. The functionality of this calculator is as follows: addition, subtraction, multiplication, division, percentage and root.",
+  "launch_path": "/easy-calculator/server/web/index.html",
   "icons": {
-    "16": "/Calculator/images/logos/calculator-icon-16.png",
-    "32": "/Calculator/images/logos/calculator-icon-32.png",
-    "48": "/Calculator/images/logos/calculator-icon-48.png",
-    "60": "/Calculator/images/logos/calculator-icon-60.png",
-    "64": "/Calculator/images/logos/calculator-icon-64.png",
-    "128": "/Calculator/images/logos/calculator-icon-128.png"
+    "16": "/easy-calculator/server/web/images/logos/calculator-icon-16.png",
+    "32": "/easy-calculator/server/web/images/logos/calculator-icon-32.png",
+    "48": "/easy-calculator/server/web/images/logos/calculator-icon-48.png",
+    "60": "/easy-calculator/server/web/images/logos/calculator-icon-60.png",
+    "64": "/easy-calculator/server/web/images/logos/calculator-icon-64.png",
+    "128": "/easy-calculator/server/web/images/logos/calculator-icon-128.png"
   },
   "developer": {
     "name": "Alex Theedom",
